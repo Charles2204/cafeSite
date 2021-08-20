@@ -658,3 +658,158 @@ header {
     height: 208px;
 }
 }
+
+@media only screen and (max-width: 448px) {
+    /** Header Nav **/
+    header {
+       background: url('../images/header-img.JPG') no-repeat center;
+       background-size: cover;    
+       height: 475px;
+       width: 100%; 
+       padding: 0px;
+       position: relative;
+   }
+   .logo-text {
+       font-family: Brush Script MT;
+       text-align: center;
+       font-size: 6vh;
+       color: white;
+       padding: 20px;    
+   }
+.hero-text h1,.hero-text p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 20px;
+ }
+ .hero-text p {
+   top: 54%;
+   font-size: 15px;
+ }
+ 
+  /** Our Favourite slider**/
+  .fav {
+   display: flex;
+   justify-content: center;
+   margin: 4vw;
+   color: orange;
+   font-size: 22px;
+}
+.flex-container {
+   display: flex;
+   padding: 0 50px;
+   flex-direction: column;
+}
+.flex-container .card {
+   margin: 0 0.5vw;
+   justify-content: space-evenly;
+   height: 260px;
+ }
+ .card .img-layer {
+   background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%) ;
+   height: 140px;
+ }
+.card-container h4{
+   color: white;
+   padding: 0 1vw;
+   font-size: 18px;
+}
+.card-container p {
+   color: white;
+   padding: 1vw;
+   font-size: 13px;
+}
+
+/** Our tasty menu**/
+   .container2 {
+       display: flex;
+       background: url('../images/tasty-menu.JPG') no-repeat center;
+       background-size: cover;
+       height: 886px;
+       width: 100%;
+       margin-top: 2vh;
+       justify-content: center;
+       flex-direction: column;
+       position: relative;
+       z-index: -1;
+   }
+   .sub-container2 {
+       background-color: rgb(0, 0, 0,0.7);
+       background-size: cover;    
+       height: 886px;
+       width: 100%;
+       
+   }
+   .flex-container1 {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+   }
+   .flex-container1 .card1 {
+       margin: 0 21vw 10px;   
+       width: 245px;    
+       position: relative;
+       align-self: center;
+      }
+      .card1 img {
+       width: 100%;
+       height: 262px;
+       border-radius: 5px;
+   }
+      #lunch {
+       position: absolute;
+       top: 8%;
+       left: 8%;
+       background: linear-gradient(to bottom, rgb(0, 0, 0,0.3) 0%, rgba(255, 166, 0, 0.4) 100%);
+       
+       font-size: 28px;
+       padding: 110px 49px;
+       color: white;
+       box-sizing: border-box;
+       width: 84%;
+       height: 222px;
+       text-align: center;
+       border: 1px solid orange;
+   }
+
+/** customer review **/
+.container3 {
+   display: flex;
+   height: 198px;
+   width: 100%;
+   margin-top: 3vh;
+   overflow: hidden;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: center;
+   padding: 0 16px;
+   font-size: 13px;
+}
+.container3 h3 {
+   font-size: 16px;
+   color: orange;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/** container4 **/
+.container4 {
+   display: flex;
+   margin-top: 3vh;
+}
+.container4 .card4 {
+   width: 100%;
+   height: 208px;
+}
+
+/** Footer **/
+footer {
+   background-color: black;
+   text-align: center;
+   font-size: 15px;
+   color: white;
+   padding: 6px 0;
+   height: 30px;
+}
+}
