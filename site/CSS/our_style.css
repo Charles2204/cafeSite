@@ -153,6 +153,114 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 448px) {
+    /** Header Nav **/
+header {
+  background: url('../images/header-img.JPG') no-repeat ;
+  background-size: cover;    
+  height: 108px;
+  width: 100%; 
+  padding: 0px;
+  position: relative;
+}
+.logo-text {
+  font-family: Brush Script MT;
+  text-align: center;
+  font-size: 6vh;
+  color: white;
+  padding: 20px;    
+}
+/** The Restaurant **/
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+.restaurant h4 {
+  font-size: 18px;
+  text-align: center;
+  color: orange;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2vh;
+}
+.restaurant p {
+  text-align: center;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/** Story Container **/
+.story_container {
+  display: flex;
+  background: url(../images/story.JPG) no-repeat center;
+  margin-top: 6vh;
+  background-size: cover;
+  padding: 30px 91px;
+  justify-content: center;
+  flex-direction: column;
+}
+/** our story **/
+.our_story {
+  display: flex;
+  background-size: cover;
+  padding: 32px 5px;
+  flex-direction: column;
+  text-align: center;
+  color: orange;
+  font-size: 32px;
+}
+.flex_story {
+  display: grid;
+}
+.flex_story h6 {
+  justify-content: center;
+}
+.card1 p {
+  padding: 14px 21px;
+  font-size: 13px;
+  color: black;
+}
+.card1 h4 {
+  font-size: 18px;
+  text-align: center;
+  color: orange;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 1vh;
+}
+
+/** Chef Container **/
+.chef_container {
+  display: flex;
+  background: url('../images/chef_bg.JPG') no-repeat center;
+  background-size: cover;
+  height: 1245px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: -1;
+}
+.sub-container3 {
+  background-color: rgb(0, 0, 0,0.7);
+  background-size: cover;    
+  height: inherit;
+  width: 100%;
+}
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-container2 .card2 {
+  margin: 2vh 1vw 2vh;   
+  width: 167px;    
+  position: relative;
+  color: white;
+  align-self: center;
+  background-color: rgb(0, 0, 0,0.5);
+ }
+
+}
+
 @media only screen and (min-width: 448px) and (max-width: 599px) {
     /** Header Nav **/
 header {
